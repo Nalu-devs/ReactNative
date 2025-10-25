@@ -11,9 +11,9 @@ export default function UseStateHook() {
     <View style={styles.container}>
       <StatusBar style="auto" />
 
-      <Text style={styles.respostaText}>{valor}</Text>
+      <Text style={styles.respostaText}>{numero}</Text>
       <Divider style={styles.divider}/>
-      <TouchableOpacity style={[styles.btn, styles.btnAumenta]} onPress={() => { setValor(valor + 1); }}>
+      <TouchableOpacity style={[styles.btn, styles.btnAumenta]} onPress={() => { setNumero(numero + 1); }}>
         <Text style={styles.btnText}>Aumentar Valor</Text>
       </TouchableOpacity>
       <TouchableOpacity style={[styles.btn, styles.btnDiminui]} onPress={() => { setValor(valor - 1); }}>
